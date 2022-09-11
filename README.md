@@ -7,3 +7,4 @@ Skills:
 - HTML
 - CSS
 - JS
+- React Basics
