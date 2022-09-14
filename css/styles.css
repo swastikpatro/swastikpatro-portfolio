@@ -322,9 +322,15 @@ Navbar
 ===============
 */
 
-body {
+h1,
+h2,
+h3 {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* body {
+  position: relative;
+} */
 
 nav {
   height: 4rem;
@@ -332,6 +338,9 @@ nav {
   border-bottom-left-radius: 1.75rem;
   padding: 0.25rem;
   box-shadow: var(--shadow-4);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .nav-center {
@@ -405,3 +414,34 @@ nav {
 Hero
 ===============
 */
+
+.hero {
+  min-height: calc(100vh - 6rem);
+  margin-top: 2rem;
+}
+
+.hero-img {
+  display: block;
+  height: 32rem;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.hero h2 {
+  color: var(--grey-400);
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: var(--letterSpacing);
+}
+
+.hero span {
+  color: var(--primary-500);
+}
+
+@media screen and (min-width: 680px) {
+  .hero-img {
+    margin-bottom: 2rem;
+  }
+}
