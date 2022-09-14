@@ -565,22 +565,27 @@ Footer
   color: var(--grey-500);
 }
 .main-text h2 {
+  letter-spacing: var(--letterSpacing);
   text-transform: lowercase;
   font-weight: 600;
 }
 
-.single-project {
+.single-project,
+.single-blog {
   text-align: center;
   padding: 2rem;
 }
 
-.single-project .heading {
+.single-project .heading,
+.single-blog .heading {
   margin-bottom: 0.5rem;
   font-size: 2rem;
   letter-spacing: var(--letterSpacing);
+  font-weight: 700;
 }
 
-.single-project .date {
+.single-project .date,
+.single-blog .date {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
   font-size: 1rem;
@@ -588,7 +593,8 @@ Footer
   color: var(--grey-500);
 }
 
-.single-project p {
+.single-project p,
+.single-blog p {
   margin: 0 auto;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -600,6 +606,12 @@ Footer
   gap: 0 2rem;
 }
 
-.btn-center a {
+.btn-center a,
+.single-blog a {
   padding: 0.5rem 1.5rem;
+}
+
+/* blogs.html */
+.single-blog {
+  margin-bottom: 2rem;
 }
