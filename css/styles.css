@@ -5,6 +5,8 @@ Fonts
 */
 @import url('https://fonts.googleapis.com/css?family=Karla:400|Spectral:400');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 html {
   font-size: 100%;
 } /*16px*/
@@ -320,9 +322,86 @@ Navbar
 ===============
 */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 nav {
-  height: 8rem;
+  height: 4rem;
   background: var(--primary-500);
   border-bottom-left-radius: 1.75rem;
-  position: sticky;
+  padding: 0.25rem;
+  box-shadow: var(--shadow-4);
 }
+
+.nav-center {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-items: center;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0.75rem auto;
+  gap: 0 2rem;
+}
+
+.nav-center h2 {
+  /* border: 2px solid #222; */
+  font-size: 1.25rem;
+  color: var(--white);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: -0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-end;
+  margin-bottom: -0.75rem;
+  width: 80%;
+}
+
+.nav-links a {
+  color: var(--white);
+  letter-spacing: var(--letterSpacing);
+  transition: var(--transition);
+}
+
+.nav-links a:hover:not(.link-active) {
+  color: var(--primary-800);
+}
+
+.link-active {
+  font-weight: 680;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-center {
+    margin: 0.5rem auto;
+  }
+  .nav-center h2 {
+    font-size: 1.75rem;
+  }
+  .nav-links {
+    font-size: 1.25rem;
+    width: 75%;
+  }
+}
+@media screen and (min-width: 786px) {
+  .nav-links {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .nav-links {
+    width: 35%;
+  }
+}
+
+/*
+=============== 
+Hero
+===============
+*/
