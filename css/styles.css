@@ -295,7 +295,7 @@ ul {
 
 /* section */
 .section {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .section-center {
@@ -316,6 +316,11 @@ main {
   place-items: center;
 }
 
+.bcg-black {
+  background: var(--grey-200);
+  border-radius: 3rem;
+}
+
 /*
 =============== 
 Navbar
@@ -327,10 +332,6 @@ h2,
 h3 {
   font-family: 'Montserrat', sans-serif;
 }
-
-/* body {
-  position: relative;
-} */
 
 nav {
   height: 4rem;
@@ -444,4 +445,55 @@ Hero
   .hero-img {
     margin-bottom: 2rem;
   }
+}
+
+/*
+=============== 
+Technologies
+===============
+*/
+
+.technologies .section-title {
+  margin-bottom: 3rem;
+}
+
+.tech {
+  /* border: 2px solid #222; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  width: 70vw;
+  margin: 0 auto;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.tech li i {
+  font-size: 2rem;
+  color: var(--primary-500);
+}
+
+.tech li {
+  /* border: 2px solid red; */
+  justify-self: flex-start;
+  font-size: 1.25rem;
+  letter-spacing: var(--letterSpacing);
+}
+
+/*
+=============== 
+Projects
+===============
+*/
+
+.projects .section-title {
+  margin-bottom: 2rem;
+}
+
+.projects .section-center {
+  text-align: center;
+}
+
+.projects .section-center p {
+  font-size: 1.5rem;
 }
