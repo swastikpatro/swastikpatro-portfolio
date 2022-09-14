@@ -172,8 +172,8 @@ ul {
 }
 
 .btn-hipster {
-  color: var(--primary-500);
-  background: var(--primary-200);
+  color: var(--primary-700);
+  background: var(--primary-300);
 }
 .btn-hipster:hover {
   color: var(--primary-200);
@@ -495,5 +495,62 @@ Projects
 }
 
 .projects .section-center p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  margin: 1.5rem auto;
+}
+/*
+=============== 
+Blogs
+===============
+*/
+
+.blogs .section-title {
+  margin-bottom: 2rem;
+}
+
+.blogs .section-center {
+  text-align: center;
+}
+
+.blogs .section-center p {
+  font-size: 1.25rem;
+  margin: 1.5rem auto;
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+
+.footer {
+  background: var(--primary-500);
+  border-top-left-radius: 3rem;
+  margin-top: 1rem;
+}
+
+.footer h2 {
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  letter-spacing: var(--letterSpacing);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.footer-links a {
+  font-size: 1.75rem;
+  color: var(--primary-800);
+  transition: var(--transition);
+}
+.footer-links a:hover {
+  color: var(--primary-100);
 }
