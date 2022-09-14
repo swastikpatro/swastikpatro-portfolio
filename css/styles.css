@@ -437,7 +437,7 @@ Hero
   letter-spacing: var(--letterSpacing);
 }
 
-.hero span {
+.highlight {
   color: var(--primary-500);
 }
 
@@ -553,4 +553,52 @@ Footer
 }
 .footer-links a:hover {
   color: var(--primary-100);
+}
+
+/* projects.html */
+
+.main-text {
+  height: 30vh;
+  display: grid;
+  place-items: center;
+  color: var(--grey-500);
+}
+.main-text h2 {
+  text-transform: lowercase;
+  font-weight: 600;
+}
+
+.single-project {
+  text-align: center;
+  padding: 2rem;
+}
+
+.single-project .heading {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  letter-spacing: var(--letterSpacing);
+}
+
+.single-project .date {
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--grey-500);
+}
+
+.single-project p {
+  margin: 0 auto;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  letter-spacing: var(--letterSpacing);
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+  gap: 0 2rem;
+}
+
+.btn-center a {
+  padding: 0.5rem 1.5rem;
 }
