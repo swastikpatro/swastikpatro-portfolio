@@ -535,6 +535,7 @@ Footer
   text-align: center;
   padding-top: 1rem;
   letter-spacing: var(--letterSpacing);
+  margin-bottom: 0.5rem;
 }
 
 .footer-links {
