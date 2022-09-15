@@ -603,9 +603,17 @@ Footer
   letter-spacing: var(--letterSpacing);
 }
 .btn-center {
-  display: flex;
-  justify-content: center;
-  gap: 0 2rem;
+  display: grid;
+  justify-items: center;
+  gap: 1.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+  .btn-center {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .btn-center a,
