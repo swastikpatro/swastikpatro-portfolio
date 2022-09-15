@@ -318,7 +318,13 @@ main {
 
 .bcg-black {
   background: var(--grey-200);
-  border-radius: 3rem;
+  border-radius: 2rem;
+}
+
+@media screen and (min-width: 680px) {
+  .bcg-black {
+    border-radius: 3rem;
+  }
 }
 
 /*
@@ -336,7 +342,7 @@ h3 {
 nav {
   height: 4rem;
   background: var(--primary-500);
-  border-bottom-left-radius: 1.75rem;
+  border-bottom-left-radius: 2rem;
   padding: 0.25rem;
   box-shadow: var(--shadow-4);
   position: sticky;
