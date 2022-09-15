@@ -366,11 +366,14 @@ nav {
 }
 
 .nav-links {
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   justify-self: flex-end;
   margin-bottom: -0.75rem;
-  width: 80%;
+  width: 100%;
+  max-width: 250px;
+  /* column-gap: 0.75rem; */
 }
 
 .nav-links a {
@@ -396,19 +399,14 @@ nav {
   }
   .nav-links {
     font-size: 1.25rem;
-    width: 75%;
   }
 }
-@media screen and (min-width: 786px) {
-  .nav-links {
-    width: 50%;
+
+/* @media screen and (min-width: 1000px) {
+  .nav-center h2 {
+    justify-self: flex-start;
   }
-}
-@media screen and (min-width: 1000px) {
-  .nav-links {
-    width: 35%;
-  }
-}
+} */
 
 /*
 =============== 
@@ -465,7 +463,6 @@ Technologies
   margin: 0 auto;
   gap: 2rem;
   margin-top: 2rem;
-  margin-left: 5rem;
 }
 
 .tech li i {
