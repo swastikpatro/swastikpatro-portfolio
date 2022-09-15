@@ -605,20 +605,17 @@ Footer
 .btn-center {
   display: grid;
   justify-items: center;
-  gap: 1.5rem;
-  max-width: 400px;
+  gap: 1rem;
+  max-width: 600px;
   margin: 0 auto;
+  /* border: 2px solid red; */
 }
 
 @media screen and (min-width: 576px) {
   .btn-center {
+    max-width: 400px;
     grid-template-columns: repeat(2, 1fr);
   }
-}
-
-.btn-center a,
-.single-blog a {
-  padding: 0.5rem 1.5rem;
 }
 
 /* blogs.html */
