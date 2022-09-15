@@ -373,7 +373,6 @@ nav {
   margin-bottom: -0.75rem;
   width: 100%;
   max-width: 250px;
-  /* column-gap: 0.75rem; */
 }
 
 .nav-links a {
@@ -402,11 +401,11 @@ nav {
   }
 }
 
-/* @media screen and (min-width: 1000px) {
-  .nav-center h2 {
-    justify-self: flex-start;
+@media screen and (min-width: 680px) {
+  .nav-links {
+    max-width: 400px;
   }
-} */
+}
 
 /*
 =============== 
