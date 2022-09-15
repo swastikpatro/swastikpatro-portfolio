@@ -606,6 +606,7 @@ Footer
   display: grid;
   justify-items: center;
   gap: 1rem;
+  max-width: 600px;
   margin: 0 auto;
   /* border: 2px solid red; */
 }
@@ -616,6 +617,7 @@ Footer
 
 @media screen and (min-width: 576px) {
   .btn-center {
+    max-width: 400px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
