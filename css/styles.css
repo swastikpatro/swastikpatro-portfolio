@@ -462,20 +462,14 @@ Technologies
 
 .tech {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   justify-items: center;
   width: 80vw;
   max-width: 1170px;
   margin: 0 auto;
-  gap: 2rem;
+  gap: 1.25rem;
   margin-top: 2rem;
   /* border: 2px solid red; */
-}
-
-@media screen and (min-width: 768px) {
-  .tech {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 .tech li i {
