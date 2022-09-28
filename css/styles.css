@@ -318,7 +318,7 @@ main {
 
 .bcg-black {
   background: var(--grey-200);
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 
 @media screen and (min-width: 680px) {
@@ -558,8 +558,15 @@ Footer
 
 /* projects.html */
 
+.projects-section {
+  width: 90vw;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-text {
-  height: 30vh;
+  height: 20rem;
   display: grid;
   place-items: center;
   color: var(--grey-500);
@@ -574,12 +581,13 @@ Footer
 .single-blog {
   text-align: center;
   padding: 2rem;
+  margin-bottom: 1rem;
 }
 
 .single-project .heading,
 .single-blog .heading {
   margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: var(--letterSpacing);
   font-weight: 700;
 }
@@ -588,16 +596,18 @@ Footer
 .single-blog .date {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-style: italic;
   color: var(--grey-500);
 }
 
+/* 2, 1,  */
 .single-project p,
 .single-blog p {
   margin: 0 auto;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+  font-size: 0.85rem;
   letter-spacing: var(--letterSpacing);
 }
 .btn-center {
@@ -617,6 +627,23 @@ Footer
   .btn-center {
     max-width: 400px;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .single-project .heading,
+  .single-blog .heading {
+    font-size: 2rem;
+  }
+
+  .single-project .date,
+  .single-blog .date {
+    font-size: 1rem;
+  }
+
+  .single-project p,
+  .single-blog p {
+    font-size: 1.25rem;
   }
 }
 
