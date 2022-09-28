@@ -72,7 +72,7 @@ const projectsData = [
     myDate: 'september, 2022',
     desc: 'A app which helps you to learn about triangles.',
     live: 'https://neog-fun-with-triangles.vercel.app/',
-    source: 'https://github.com/swastikpatro/neog-mark12-Fun_With_Triangless',
+    source: 'https://github.com/swastikpatro/neog-mark12-Fun_With_Triangles',
   },
   {
     id: 10,
