@@ -99,7 +99,7 @@ function displayProjects(data) {
   projectsSection.innerHTML = data
     .map((project) => {
       return `
-    <article class="single-project ${project.id % 2 && 'bcg-black'}">
+    <article class="single-project ${project.id % 2 && 'bcg-amber'}">
         <h2 class="heading">${project.heading}</h2>
         <small class="date">${project.myDate}</small>
         <p>${project.desc}</p>
