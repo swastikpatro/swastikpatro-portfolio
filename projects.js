@@ -120,7 +120,7 @@ function displayProjects(data) {
       </article>
     `;
     })
-    .join();
+    .join("");
 }
 
 window.addEventListener('DOMContentLoaded', () => {
