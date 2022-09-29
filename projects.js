@@ -123,6 +123,8 @@ function displayProjects(data) {
     .join('');
 }
 
+projectsSection.innerHTML = "<div class='loading'></div>";
+
 window.addEventListener('DOMContentLoaded', () => {
   displayProjects(projectsData);
 });
