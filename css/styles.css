@@ -558,6 +558,11 @@ Footer
 
 /* projects.html */
 
+.projects-body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 .projects-section {
   width: 90vw;
   max-width: 1000px;
