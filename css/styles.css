@@ -385,6 +385,7 @@ nav {
   color: var(--white);
   letter-spacing: var(--letterSpacing);
   transition: var(--transition);
+  cursor: pointer;
 }
 
 .nav-links a:hover:not(.link-active) {
@@ -392,6 +393,7 @@ nav {
 }
 
 .link-active {
+  cursor: default;
   font-weight: 680;
 }
 
@@ -659,7 +661,6 @@ Footer
   color: var(--grey-500);
 }
 
-/* 2, 1,  */
 .single-project p,
 .single-blog p {
   margin: 0 auto;
