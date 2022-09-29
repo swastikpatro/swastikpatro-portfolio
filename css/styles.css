@@ -567,7 +567,7 @@ Footer
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  min-height: calc(100vh - 33.5rem);
+  min-height: calc(100vh - 25rem);
 }
 
 .main-text {
