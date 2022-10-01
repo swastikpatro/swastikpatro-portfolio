@@ -333,6 +333,11 @@ Navbar
 ===============
 */
 
+body {
+  min-height: 100vh;
+  display: grid;
+}
+
 h1,
 h2,
 h3 {
@@ -429,8 +434,10 @@ Hero
 .hero-img {
   display: block;
   height: 32rem;
-  width: 100%;
-  /* border: 2px solid red; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid red;
 }
 
 .hero h2 {
@@ -440,6 +447,8 @@ Hero
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: var(--letterSpacing);
+  font-style: italic;
+  margin-top: -2rem;
 }
 
 .highlight {
@@ -449,6 +458,11 @@ Hero
 @media screen and (min-width: 680px) {
   .hero-img {
     margin-bottom: 2rem;
+  }
+
+  .hero h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
 }
 
@@ -461,9 +475,9 @@ Technologies
 .technologies {
   width: 90vw;
   max-width: 1170px;
-  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
 }
 
 .technologies .section-title {
