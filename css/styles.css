@@ -390,15 +390,15 @@ nav {
   color: var(--white);
   letter-spacing: var(--letterSpacing);
   transition: var(--transition);
-  cursor: pointer;
+  cursor: default;
 }
 
 .nav-links a:hover:not(.link-active) {
+  cursor: pointer;
   color: var(--primary-800);
 }
 
 .link-active {
-  cursor: default;
   font-weight: 680;
 }
 
