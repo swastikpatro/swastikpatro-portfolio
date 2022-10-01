@@ -724,3 +724,47 @@ Footer
 .single-blog {
   margin-bottom: 2rem;
 }
+
+.read-link {
+  color: var(--primary-700);
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 1.15rem;
+}
+
+.read-link:hover {
+  text-decoration: underline;
+}
+
+/* blog-one.html */
+
+.blog-article {
+  width: 80vw;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+
+.blog-article .blog-heading {
+  color: var(--primary-800);
+  text-align: center;
+}
+
+.blog-article .section-title {
+  margin-bottom: 1.5rem;
+}
+
+.blog-article .title-underline {
+  width: 12rem;
+}
+
+.blog-article p {
+  max-width: 100%;
+  color: var(--grey-500);
+}
+
+.blog-article .btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 5rem;
+}
