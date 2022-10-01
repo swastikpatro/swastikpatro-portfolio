@@ -2,7 +2,7 @@
 
 Welcome to Swastik's Portfolio
 
-## [LIVE Link](swastik-patro-portfolio.netlify.app/)
+## [LIVE Link](https://swastik-patro-portfolio.netlify.app/)
 
 Skills:
 
